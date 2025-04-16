@@ -36,23 +36,23 @@
 {
     line-height: 40px;
 }
-.style-switcher .style-switcher-toggler
+/* .style-switcher .style-switcher-toggler
 {
     top: 0;
-}
+} */
 .style-switcher .day-night
 {
     top: 55px;
 }
 .style-switcher h4
 {
-    margin: 0 0 10px;
+    margin: 0 0 100px;
     color: var(--text-black-700);
     font-size: 16px;
     font-weight: 600;
     text-transform: capitalize;
 }
-.style-switcher .colors
+/* .style-switcher .colors
 {
     display: flex;
     flex-wrap: wrap;
@@ -69,4 +69,4 @@
 .style-switcher .color-2
 {
     background: #fa5b0f;
-}
+} */
