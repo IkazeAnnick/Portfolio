@@ -31,6 +31,7 @@
     cursor: pointer;
     transition: all 0.3s ease;
     border-radius: 50%;
+    
 }
 .style-switcher .s-icon i
 {
@@ -42,7 +43,7 @@
 } */
 .style-switcher .day-night
 {
-    top: 55px;
+    top: 20px;
 }
 .style-switcher h4
 {

@@ -89,7 +89,7 @@
                   </div>
                   <div class="row">
                     <div class="buttons padd-15">
-                      <a href="#" class="btn">Download CV</a>
+                      <a href="CV.pdf" class="btn" download="CV.pdf">Download CV</a>
                       <a href="#contact" class="btn hire-me">Hire Me</a>
                     </div>
                   </div>
@@ -269,7 +269,7 @@
            </div>
           </div> -->
       </section>
-      <section id="blog-dashboard">
+      <section class="blog section" id="blog">
         <div class="container">
         <div class="section-title padd-15">
         <h2>Blog Dashboard</h2>
@@ -286,7 +286,7 @@
         <h3>All Blog Posts</h3>
         <div id="post-list"></div>
       </section>
-      <section id="blog" class="blog-section">
+      <section id="blog-dashboard" class="blog-section">
         <h2>Blog</h2>
         <div id="blog-container" class="blog-grid">
         </div>
@@ -374,8 +374,8 @@
               <h2>Contact Me</h2>
             </div>
           </div>
-          <h3 class="contact-title padd-15">Have You Any Questions?</h3>
-          <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+          <h3 class="contact-title padd-15">Have Any Questions?</h3>
+          <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICE</h4>
           <div class="row">
             <div class="contact-info-item padd-15">
               <div class="icon"><i class="fa fa-phone"></i></div>
@@ -405,19 +405,19 @@
               <div class="row">
                 <div class="form-item col-6 padd-15">
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Name">
+                    <input type="text" class="form-control" placeholder="Name" required>
                   </div>
                 </div>
                 <div class="form-item col-6 padd-15">
                   <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Email">
+                    <input type="email" class="form-control" placeholder="Email" required>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="form-item col-12 padd-15">
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Subject">
+                    <input type="text" class="form-control" placeholder="Subject" required>
                   </div>
                 </div>
               </div>
@@ -440,10 +440,6 @@
     </div>
   </div>
   <div class="style-switcher">
-    <div class="style-switcher-toggler s-icon">
-      <i class="fas fa-cog fa-spin"></i>
-    </div>
-
     <div class="day-night s-icon">
       <i class="fas fa-cog fa-spin"></i>
     </div>
@@ -465,6 +461,7 @@
     <script src="style-switcher.js"></script>
     <script src="blog.js"></script>
     <script src="blog-dashboard.js"></script>
+    
 </body>
 
 </html>
